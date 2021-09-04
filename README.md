@@ -5,10 +5,8 @@ The examples use the Reqwest crate for the http get requests.
 
 Use the following dependencies in your Cargo.html to compile successfully:
 
-[dependencies]
-
-reqwest = { version = "0.11", features = ["json"] }
-
+[dependencies]  
+reqwest = { version = "0.11", features = ["json"] }  
 tokio = { version = "1", features = ["full"] }
 
 **GetCompanyMatchSimkey.rs** - generates a similarity key to use to match/locate other similar company names ("IBM" & "International Business Machines", etc.) - visit the API Page: https://www.interzoid.com/services/getcompanymatchadvanced  
