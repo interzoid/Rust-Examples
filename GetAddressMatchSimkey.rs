@@ -1,4 +1,4 @@
-// Get your API key at www.interzoid.com/register
+// Get your API key at www.interzoid.com/register-api-account
 
 // rename to main.rs in src directory for simple "Cargo run" within project directory
 
